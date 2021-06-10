@@ -1,0 +1,22 @@
+.header {
+  margin-bottom: 1em;
+  background-color: #bb5432;
+  padding: 0.8em;
+
+  &__content {
+   color: #fff;
+   
+  }
+
+  &__title {
+    font-weight: 900;
+    font-size:xx-large;
+  }
+
+  &__description {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: x-large;
+  }
+
+}

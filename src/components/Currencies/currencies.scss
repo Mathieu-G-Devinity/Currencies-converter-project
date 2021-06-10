@@ -1,0 +1,36 @@
+.currencies {
+  text-align: left;
+  font-weight: 300;
+  font-size: large;
+  color: #bb5432;
+  overflow: auto;
+  height:150pt;
+  
+
+
+  &__title {
+    font-weight: bold;
+    padding-left: 0.8em;
+    border-bottom: #bb543236 1px solid;
+    padding-bottom: 0.5em;
+    
+  }
+
+  &__list {
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.8em;
+    border-bottom: #bb543248 1px solid;
+    
+  }
+
+  &__title:hover {
+    transition: background-color 0.2s;
+    background-color: #f1c5b6;
+  }
+
+  &__list:hover {
+    transition: background-color 0.2s;
+    background-color: #f1c5b6;
+  }
+}

@@ -1,0 +1,17 @@
+.converter {
+  margin-bottom: 1em;
+  padding: 2em;
+
+  &__title {
+    font-weight: 700;
+    font-size:xx-large;
+    color: #bb5432;
+    padding-bottom: 0.5em;
+  }
+
+  &__titlesmall {
+    color: #bb5432f1;
+    font-size: x-large;
+    font-weight: 100;
+  }
+}
